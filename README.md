@@ -29,3 +29,9 @@ Once installed, the following steps will install everything needed:
 * install rest of dependencies: `pip install requirements.txt`
 
 Now you're ready to launch and experiment with examples!
+
+
+## Used command to install pytorch for ROCM:
+`$ pip install torch==1.11.0+rocm4.5.2 torchvision==0.12.0+rocm4.5.2 torchaudio==0.11.0 --extra-index-url  https://download.pytorch.org/whl/rocm4.5.2`
+`$ python ptan/setup.py install`
+
